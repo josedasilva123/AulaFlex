@@ -1,0 +1,12 @@
+.CardExample-li {
+  font-family: sans-serif;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+
+  background: rgb(242, 242, 242);
+
+  padding: 2rem;
+}
