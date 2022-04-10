@@ -3,8 +3,6 @@
     display: flex;
     flex-wrap: wrap;
     margin-top: 2rem;
-<<<<<<< Updated upstream
-=======
     gap: 2rem;
 }
 .cardList li{
@@ -39,5 +37,4 @@
 .buttonGrid button:hover{
     background: blue;
     color: #fff;
->>>>>>> Stashed changes
 }
