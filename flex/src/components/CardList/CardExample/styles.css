@@ -1,15 +1,11 @@
 .CardExample-li {
   font-family: sans-serif;
-
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: center;
-  flex: 1;
-
-  background: rgb(242, 242, 242);
-
-
+  justify-content: flex-start;
+  background: #fff;
+  border-radius: 1rem;
   transition: .3s;
 }
 .CardExample-li:hover{
@@ -40,10 +36,6 @@
 
   width: 100%;
   padding: 2rem;
-
-  background: #fff;
-
-  border-radius: 0 0 1rem 1rem;
 }
 @media (max-width: 420px){
   .CardExample-li img{

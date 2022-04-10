@@ -1,3 +1,43 @@
 .cardList{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
     margin-top: 2rem;
+<<<<<<< Updated upstream
+=======
+    gap: 2rem;
+}
+.cardList li{
+    width: calc((100% - 4rem)/3);
+}
+@media (max-width: 950px){
+    .cardList li{
+        width: calc((100% - 2rem)/2);   
+    }   
+}
+@media (max-width: 650px){
+    .cardList li{
+        width: 100%; 
+    }      
+}
+.buttonGrid{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.buttonGrid button{
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    background: transparent;
+    border: 2px solid blue;
+    color: blue;
+    padding: 0 2rem;
+    height: 48px;
+    transition: .3s;   
+}
+.buttonGrid button:hover{
+    background: blue;
+    color: #fff;
+>>>>>>> Stashed changes
 }
