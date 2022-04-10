@@ -3,10 +3,10 @@ import './styles.css';
 
 const Header = () => {
   return (
-    <header class="Header">
+    <header className="Header">
       <div>
         <div>
-          <h2>Flex</h2>
+          <h2>FlexBlog</h2>
           <button>Seja feliz!</button>
         </div>
       </div>

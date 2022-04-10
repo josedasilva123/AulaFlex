@@ -1,10 +1,13 @@
 import React from 'react'
 import './styles.css';
 
-const CardExample = (className) => {
+const CardExample = ({title, image, className}) => {
   return (
     <li className={"CardExample-li " + className}>
-        <h2>CardExample</h2>
+        <img src={image} alt={title}/>
+        <div>
+          <h3>{title}</h3>
+        </div>
     </li>
   )
 }
